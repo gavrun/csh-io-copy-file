@@ -1,0 +1,20 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <OutputType>Exe</OutputType>
+	<AssemblyName>cp</AssemblyName>
+    <TargetFramework>net8.0</TargetFramework>
+    <RootNamespace>csh_io_copy_file</RootNamespace>
+    <ImplicitUsings>enable</ImplicitUsings>
+    <Nullable>enable</Nullable>
+  </PropertyGroup>
+
+  <Target Name="PreBuild" BeforeTargets="PreBuildEvent">
+    <Exec Command="powershell -Command &quot;Remove-Item Alias:cp -Force; New-Alias -Name cp -Value '$(TargetPath)'&quot;&#xD;&#xA;" />
+  </Target>
+
+  <Target Name="PostBuild" AfterTargets="PostBuildEvent">
+    <Exec Command="echo This is a test file. &gt; &quot;$(TargetDir)testfile.txt&quot;" />
+  </Target>
+
+</Project>

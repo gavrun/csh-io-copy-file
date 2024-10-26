@@ -1,0 +1,25 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.11.35327.3
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "csh-io-copy-file", "csh-io-copy-file.csproj", "{20F09C27-18F6-49D7-94DD-B14267E77951}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{20F09C27-18F6-49D7-94DD-B14267E77951}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{20F09C27-18F6-49D7-94DD-B14267E77951}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{20F09C27-18F6-49D7-94DD-B14267E77951}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{20F09C27-18F6-49D7-94DD-B14267E77951}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {29ECF7B9-B48C-4A12-88BE-5C510BC79E95}
+	EndGlobalSection
+EndGlobal
